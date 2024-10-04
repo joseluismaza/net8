@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DinoBankAPI/DinoBankAPI.sln
+/DinoBankAPI/.vs/DinoBankAPI/FileContentIndex
+/DinoBankAPI/.vs
+/DinoBankAPI/Udemy_Curso_NET8/bin
+/DinoBankAPI/Udemy_Curso_NET8/obj
+/DinoBankAPI/Udemy_Curso_NET8_Domain/bin
+/DinoBankAPI/Udemy_Curso_NET8_Domain/obj
+/DinoBankAPI/Udemy_Curso_NET8_Persistence/bin
+/DinoBankAPI/Udemy_Curso_NET8_Persistence/obj
