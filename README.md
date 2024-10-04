@@ -12,6 +12,7 @@ Endpoints
 La API proporciona los siguientes endpoints para la gestión de usuarios:
 
 GET /api/user/getall
+
 Obtiene una lista de todos los usuarios almacenados.
 {
   "Id": "1",
@@ -21,9 +22,11 @@ Obtiene una lista de todos los usuarios almacenados.
 }
   
 GET /api/user/getbyId/{id}
+
 Obtiene un usuario específico basado en su ID.
 
-Parámetro:
+Parámetro: 
+
 id: El ID del usuario.
 {
   "Id": 1,
@@ -33,21 +36,27 @@ id: El ID del usuario.
 }
 
 GET /api/user/getUserName/{userName}
+
 Obtiene un usuario basado en su nombre de usuario.
 
 Parámetro:
+
 userName: El nombre de usuario.
 
 GET /api/user/getbyType/{type}
+
 Obtiene una lista de usuarios que coinciden con un tipo específico (por ejemplo, Internal o External).
 
 Parámetro:
+
 type: El tipo de usuario (Internal, External).
 
 POST /api/user/create
+
 Crea un nuevo usuario. La API genera automáticamente el próximo ID disponible.
 
 Parámetros:
+
 {
   "UserName": "user004",
   "Password": "pass004",
@@ -55,6 +64,7 @@ Parámetros:
 }
 
 PUT /api/user/update
+
 Actualiza un usuario existente basado en el ID proporcionado.
 
 {
@@ -65,12 +75,15 @@ Actualiza un usuario existente basado en el ID proporcionado.
 }
 
 DELETE /api/user/delete/{id}
+
 Elimina un usuario basado en su ID.
 
 Parámetro:
+
 id: El ID del usuario que se desea eliminar.
 
 Archivos importantes
+
 UserController.cs: Controlador de la API donde están definidos todos los endpoints.
 DataBaseService.cs: Servicio que maneja la lógica de acceso a la "base de datos" JSON.
 User.JSON: Archivo donde se almacenan los datos de los usuarios.
