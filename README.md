@@ -1,7 +1,9 @@
 NET 8 API Project
+
 Este proyecto es una API RESTful construida con .NET 8 que gestiona usuarios con operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Los usuarios se almacenan en un archivo JSON local y cada operación manipula esta base de datos basada en archivos. El proyecto implementa inyección de dependencias y tiene varios endpoints para interactuar con los datos de usuario.
 
 Características
+
 .NET 8: Implementación de los métodos GET, POST, PUT y DELETE.
 Inyección de dependencias: Uso de un servicio de base de datos para la manipulación de los usuarios.
 Archivo JSON como base de datos.
